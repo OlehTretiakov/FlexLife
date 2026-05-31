@@ -1,0 +1,39 @@
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+    background-color: #0f0920;
+    min-height: 100vh;
+}
+
+.header__top {
+    padding-top: 12px;
+    color: #fff;
+    display: flex;
+    gap: 0 40px;
+    align-items: center;
+}
+.header__btn {
+    margin-left: auto;
+}
+.btn {
+    padding: 16px 38px;
+    color: #e2523e;
+    border: none;
+    border-radius: 30px;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+}
+.menu__list {
+    display: flex;
+    gap: 0 40px;
+}
+
+.menu__link {
+    font-size: 14px;
+    line-height: 1.14;
+}
