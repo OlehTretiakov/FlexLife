@@ -1,3 +1,3 @@
 Ссылка на сайт:
 
-https://olehtretiakov.github.io/NexBank/
+https://olehtretiakov.github.io/FlexLife/
