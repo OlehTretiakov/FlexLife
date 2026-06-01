@@ -7,9 +7,11 @@
 .header {
     background-color: #0f0920;
     min-height: 100vh;
+    padding-bottom: 40px;
 }
 
 .header__top {
+    margin-bottom: 124px;
     padding-top: 12px;
     color: #fff;
     display: flex;
@@ -37,4 +39,39 @@
 .menu__link {
     font-size: 14px;
     line-height: 1.14;
+}
+
+.header__info {
+    margin-bottom: 82px;
+    text-align: center;
+    color: #fff;
+}
+.header__title {
+    margin-bottom: 14px;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 1.16;
+    color: #eef4ff;
+}
+.header__text {
+    margin: 0 auto 25px;
+    max-width: 638px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.btn-call {
+    padding: 18px 56px;
+    background-color: #e2523e;
+    border-radius: 8px;
+    font-weight: 500;
+    line-height: 1.157;
+    font-size: 14px;
+}
+.header__galery {
+    display: flex;
+    justify-content: space-between;
+}
+.header__img {
+    border-radius: 8px;
 }
