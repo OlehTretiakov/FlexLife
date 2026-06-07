@@ -77,10 +77,7 @@ body {
   gap: 0 40px;
 }
 
-.menu__btn span {
-  height: 3px;
-  background-color: #fff;
-}
+
 
 .menu__btn {
   font-size: 14px;
@@ -95,6 +92,27 @@ body {
   background-color: transparent;
   border: none;
   padding: 0;
+}
+
+.menu__btn span {
+  height: 3px;
+  background-color: #fff;
+}
+
+.menu__btn span {
+  transition: all .3s ease;
+}
+
+.menu--open .menu__btn span:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.menu--open .menu__btn span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu--open .menu__btn span:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
 }
 
 .header__info {
@@ -113,7 +131,7 @@ body {
 }
 
 .header__text {
-  margin:0 auto 25px;
+  margin: 0 auto 25px;
   max-width: 638px;
   font-weight: 400;
   font-size: 20px;
